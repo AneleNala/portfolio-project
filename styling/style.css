@@ -1,0 +1,34 @@
+:root {
+  --branding-color: white;
+  --secondary-color: black;
+  --heading-font-family: "Montserrat", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  padding: 170px 20px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.project-button {
+  color: white;
+  border: none;
+  background-color: black;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 25px;
+  font-weight: 500;
+}
