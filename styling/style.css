@@ -8,7 +8,9 @@
 .hero {
   padding: 170px 20px;
 }
-
+.about-hero {
+  padding: 170px 20px;
+}
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -17,12 +19,21 @@ h1 {
   color: black;
 }
 
+.about-h1 {
+  font-size: 64px;
+  text-align: left;
+}
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 64px;
 }
 
+.about-h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
 button {
   color: black;
   border: 1px solid black;
@@ -48,8 +59,21 @@ p {
   line-height: 2;
 }
 
+.about-p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .content {
   padding: 20px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 @media (max-width: 900px) {
@@ -60,5 +84,14 @@ p {
 
   .project-description {
     text-align: center;
+  }
+
+  .about-img {
+    margin: 35px auto;
+    display: block;
+  }
+
+  .about-button {
+    margin: 20px;
   }
 }
