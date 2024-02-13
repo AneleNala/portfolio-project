@@ -15,6 +15,10 @@
 .work-grid {
   padding: 170px 20px;
 }
+.contact-hero {
+  padding: 170px 20px;
+  margin: 30px;
+}
 
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -38,6 +42,12 @@ h2 {
 .about-h2 {
   font-size: 24px;
   font-weight: bold;
+}
+
+.contact-h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
 }
 
 button {
@@ -70,10 +80,16 @@ p {
   line-height: 1.5;
 }
 
+.contact-p {
+  font-size: 18px;
+}
+
 .work-p {
   font-size: 13px;
 }
-
+.link-p {
+  color: black;
+}
 .about-img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
