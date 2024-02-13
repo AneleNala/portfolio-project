@@ -11,6 +11,11 @@
 .about-hero {
   padding: 170px 20px;
 }
+
+.work-grid {
+  padding: 170px 20px;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -34,6 +39,7 @@ h2 {
   font-size: 24px;
   font-weight: bold;
 }
+
 button {
   color: black;
   border: 1px solid black;
@@ -62,6 +68,10 @@ p {
 .about-p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.work-p {
+  font-size: 13px;
 }
 
 .about-img {
