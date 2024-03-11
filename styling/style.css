@@ -96,6 +96,10 @@ p {
   color: black;
   text-decoration: none;
 }
+
+.link-p:hover {
+  color: lightgrey;
+}
 .about-img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -117,7 +121,7 @@ nav li {
 }
 
 .logo {
-  max-width: 40px;
+  max-width: 50px;
 }
 
 nav ul {
